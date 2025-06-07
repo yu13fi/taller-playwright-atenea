@@ -40,7 +40,7 @@ test('TC-5 Verificar Registro exitoso con datos válidos', async ({ page }) => {
 
 
 test('TC-6 Verificar que un usuario no pueda registrarse con un correo electrónico ya existente', async ({ page }) => {
- const email = 'juantorres' + Date.now().toString() + '@email.com';
+ const email = 'YuriFigueroa' + Date.now().toString() + '@email.com';
   await page.goto('https://3168-2803-9800-b887-80f2-4157-b6c1-c250-866d.ngrok-free.app/');
   await page.locator('input[name="firstName"]').fill('Yuri');
   await page.locator('input[name="lastName"]').fill('Figueroa');
